@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Lilita+One&family=Roboto:ital,wght@0,400;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul{
+
+list-style: none;
+
+}
+
+a{
+ text-decoration: none;
+}
+
+.adventure-header{
+   
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.465), rgba(0, 0, 0, 0.445)),url(../img/dawn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    height: auto;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 10%;
+    margin-left: 400px;
+    
+}
+.logo h4{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.logo span{
+    font-size: 18px;
+    font-weight: 100;
+}
+.menu{
+    width: 75%;
+  margin-left: 300px;
+    
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.menu ul li{}
+.menu ul li a{
+    padding-left: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+.adventure-trip{
+    text-align: center;
+    padding: 180px 0;
+    margin-left: 50px;
+}
+.adventure-trip h4{
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+.adventure-trip span{
+    width: 100px;
+    height: 4px;
+    background: red;
+    display:inline-block;
+    margin-bottom: 80px;
+    margin-top: 5px;
+}
+.adventure-trip h2{
+    font-size: 68px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom:22px;
+}
+.adventure-trip button{
+    background-color: rgb(212, 32, 32);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    border-color: rgb(223, 29, 29);
+}
+
+/*header end */
+
+
+
+.event{
+    padding: 10px 0 40px;
+}
+.container{}
+.up-event{
+    padding: 80px 0;
+    margin-left: 800px;
+    font-size: 30px;
+}
+.up-event span{
+    width: 100px;
+    height: 4px;
+    background: red;
+    display:inline-block;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+.event-flex{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 350px;
+    
+}
+.section-1{
+    width: 390px;
+    margin-left: 180px;
+}
+.section-1 img{
+        width:450px;
+        width: 400px;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        height: 350px;
+        margin-bottom: 20px;
+        
+}
+.section-1 h1{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.section-1 p{
+    font-size: 18px;
+    font-size: 18px;
+    padding:15px 0 18px;
+}
+.section-1 button{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px 16px;
+    background-color:white;
+    border: #fff;
+    color: rgb(197, 33, 66);
+    font-weight: 100;
+}
+
+.section-2{
+    width: 390px;
+    margin-right: 380px;
+}
+.section-2 img{
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin-bottom: 20px;
+    height: 350px;
+    margin-left: 0;
+}
+.section-2 h1{
+    font-size: 30px;
+}
+.section-2 p{
+    font-size: 18px;
+    padding:15px 0 18px;
+}
+.section-2 button{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px 16px;
+    background-color:white;
+    border: #fff;
+    color: rgb(197, 33, 66);
+    font-weight: 100;
+}
+
+/*section end*/
+
+
+
+.main-explor{
+    background-image: url('../img/father.jpg');
+    padding: 100px 0 ;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(8, 109, 232, 0.608);
+    background-attachment: fixed;
+    
+}
+.explore-world{
+    width: 600px;
+    margin-left: 1010px;
+    margin-top: 20px;
+    width: 400px;
+}
+.explore-world h1{
+    font-size:60px ;
+    color:white ;
+}
+.explore-world span{
+    width: 100px;
+    height: 4px;
+    background: red;
+    display:inline-block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.explore-world p{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 25px;
+    
+}
+.explore-world button{
+    font-size: 18px;
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+}
+
+/* main section end*/
+
+.last-section{
+   margin-left: 500px;
+   margin-bottom: 200px;
+}
+.container{
+   width: 800px;
+}
+.destinition{
+    display: flex;
+    justify-content: space-between;
+   
+ 
+}
+
+.TOURS-9{
+    width: 500px;
+    
+}
+.TOURS-9 h1{}
+.TOURS-9 p{}
+.TOURS-9 button{
+
+}
+
+.fkasdhi{
+    width: 800px;
+    margin-left: 200px;
+    display: flex;
+    
+}
+.fisher1 img{
+    width: 230px;
+    height: 200px;
+    
+}
+.fisher2 img{
+    width: 230px;
+    height: 300px;
+}
+.fisher3 img{
+    width: 230px;
+   height: 300px;
+   margin: 0 10px;
+}
+.fisher4 img{
+    width: 230px;
+    height: 200px;
+}
